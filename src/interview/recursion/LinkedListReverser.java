@@ -37,10 +37,10 @@ public class LinkedListReverser {
 
     Node.printLinkedList(reverser.reverseLinkedList(
         creator.createLinkedList(Arrays.asList(1, 2, 3, 4, 5))));
-
-    System.out.println("Testing large data. Expect exceptions.");
-    reverser.reverseLinkedList(
-        creator.createLargeLinkedList(1000000));
-    System.out.println("done");
+//
+//    System.out.println("Testing large data. Expect exceptions.");
+//    reverser.reverseLinkedList(
+//        creator.createLargeLinkedList(1000000));
+//    System.out.println("done");
   }
 }
